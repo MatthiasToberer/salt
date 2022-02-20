@@ -1,7 +1,9 @@
 base:
 
   'os:debian':
-    - users.linux
+    - users: 
+      - linux
 
   'os:Windows':
-    - users.windows
+    - users 
+      - windows
