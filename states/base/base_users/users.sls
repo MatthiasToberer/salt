@@ -13,7 +13,7 @@ ma.to:
     - requre:
       - pkg:
         - zsh
-  - ssh_auth.present:
+  ssh_auth.present:
     - user: ma.to
     - source: salt://base_users/ssh_keys/ma.to.pub
     - config: '%h/.ssh/authorized_keys'
