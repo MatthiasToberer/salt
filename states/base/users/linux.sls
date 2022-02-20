@@ -1,9 +1,9 @@
 zsh:
   pkg.installed
 
-ma.to:
+matoadmin:
   user.present:
-    - fullname: Ma To
+    - fullname: MaTo Admin
     - shell: /bin/zsh
     - groups:
       - sudo
@@ -11,6 +11,6 @@ ma.to:
     - require:
       - pkg: zsh
   ssh_auth.present:
-    - user: ma.to
-    - source: salt://base_users/ssh_keys/ma.to.pub
+    - user: matoadmin
+    - source: salt://users/ssh_keys/matoadmin.pub
     - config: '%h/.ssh/authorized_keys'
