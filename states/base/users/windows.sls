@@ -5,5 +5,5 @@ matoadmin:
       - Administrators
       - Users
     - fullname: mato admin
-    - password: {{ pillar['users']['passwords'] }}
+    - password: {{ pillar['passwords']['matoadmin'] }}
     - enforce_password: False
