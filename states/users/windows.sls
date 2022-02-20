@@ -6,4 +6,4 @@ win_user:
       - Users
     - fullname: mato admin
     - enforce_password: False
-    - password: 'password123'
+    - password: '{{ pillar['matoadmin'] }}'
