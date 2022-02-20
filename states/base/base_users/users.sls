@@ -10,7 +10,7 @@ ma.to:
     - groups:
       - sudo
     - home: /home/ma.to
-    - requre:
+    - require:
       - pkg:
         - zsh
   ssh_auth.present:
