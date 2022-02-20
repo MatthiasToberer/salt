@@ -1,5 +1,4 @@
 base:
-  '*':
 
   'os:debian':
     - users.linux
