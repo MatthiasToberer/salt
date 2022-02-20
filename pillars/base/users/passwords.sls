@@ -1,1 +1,2 @@
-matoadmin: password123
+passwords:
+  - matoadmin: password123
