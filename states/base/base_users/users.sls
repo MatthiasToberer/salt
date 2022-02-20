@@ -1,7 +1,5 @@
 zsh:
-  - pkg.installed: []
-  - require:
-    - zsh
+  pkg.installed
 
 ma.to:
   user.present:
