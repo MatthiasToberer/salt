@@ -1,7 +1,7 @@
-shells:
-  pkg.installed:
-    - pkgs:
-      - zsh
+zsh:
+  - pkg.installed: []
+  - require:
+   - zsh
 
 ma.to:
   user.present:
@@ -10,8 +10,7 @@ ma.to:
     - groups:
       - sudo
     - home: /home/ma.to
-    - require:
-      - pkg: zsh
+
 
   ssh_auth.present:
     - user: ma.to
