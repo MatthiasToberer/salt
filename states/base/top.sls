@@ -1,3 +1,3 @@
 base:
   '*':
-    - base_users
+    - base_users.users.sls
