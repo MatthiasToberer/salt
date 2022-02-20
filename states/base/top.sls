@@ -1,9 +1,9 @@
 base:
 
   'os:debian':
-    - users: 
-      - linux
+    - match: grain 
+    - users.linux
 
   'os:Windows':
-    - users 
-      - windows
+    - match: grain 
+    - users.windows
