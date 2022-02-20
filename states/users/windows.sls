@@ -1,4 +1,4 @@
-matoadmin:
+win_matoadmin:
   user.present:
     - name: matoadmin
     - groups:

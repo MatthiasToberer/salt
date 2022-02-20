@@ -1,7 +1,7 @@
 zsh:
   pkg.installed
 
-matoadmin:
+linux_matoadmin:
   user.present:
     - fullname: MaTo Admin
     - shell: /bin/zsh
