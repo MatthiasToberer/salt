@@ -1,2 +1,0 @@
-passwords:
-  - matoadmin: password123
