@@ -1,3 +1,3 @@
 base:
-  'os:Windows':
-    - passwords
+  '*':
+    - users.windows
