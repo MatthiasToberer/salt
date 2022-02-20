@@ -11,8 +11,8 @@ ma.to:
       - sudo
     - home: /home/ma.to
     - require:
-      - pkg:
-        - zsh
+      - pkg: zsh
+
   ssh_auth.present:
     - user: ma.to
     - source: salt://base_users/ssh_keys/ma.to.pub
